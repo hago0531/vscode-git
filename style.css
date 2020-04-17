@@ -1,39 +1,38 @@
-body{
+body {
   background-color: #2c3e50;
 }
-.btn{
-  cursor: pointer
+.btn {
+  cursor: pointer;
 }
-body{
-  color:white;
+body {
+  color: white;
 }
-.clicked{
-    color:red;
+.clicked {
+  color: red;
 }
 .form,
-.greething{
+.greething {
   display: none;
 }
 
-.showing{
- display: block
+.showing {
+  display: block;
 }
-@keyframes fadeIn{
-  from{
+@keyframes fadeIn {
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
 
-
-.bgImage{
+.bgImage {
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
-  animation: fadeIn .5s linear;
+  animation: fadeIn 0.5s linear;
 }
